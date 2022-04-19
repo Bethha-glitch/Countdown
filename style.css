@@ -1,0 +1,201 @@
+.starsImg {
+  width: 100%;
+  z-index: -1;
+}
+body {
+  background-color: hsl(235, 16%, 14%);
+}
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 100px 0 0 70px;
+}
+.soon {
+  padding-left: 80px;
+}
+.flexContainer {
+  display: flex;
+}
+.card {
+  background-color: hsl(236, 21%, 26%);
+  color: hsl(345, 95%, 68%);
+  width: 12%;
+  padding: 10px 0 10px 20px;
+  border-radius: 5px;
+  margin: 30px 0 0 25px;
+}
+.space {
+  margin-left: 20px;
+}
+.timeFrameContainer {
+  display: flex;
+  /* margin-bottom: 40px; */
+}
+.timeFrame {
+  color: #fff;
+  padding: 10px 5px 0 45px;
+  font-size: 12px;
+  text-align: center;
+}
+.footerImg {
+  width: 100%;
+  /* z-index: -1; */
+  height: 200px;
+}
+.iconContainer {
+  display: flex;
+  padding: 20px 0 20px 110px;
+  position: relative;
+  top: 170px;
+}
+.icon {
+  padding-left: 25px;
+}
+
+.attribution {
+  position: relative;
+  top: 180px;
+  color: #fff;
+}
+
+@media screen and (min-width: 460px) {
+h1 {
+  padding: 100px 0 0 90px;
+  font-size: 2.5rem;
+}
+.soon {
+  padding-left: 90px;
+}
+.flexContainer {
+  padding-left: 30px;
+}
+.timeFrameContainer {
+ padding-left: 42px;
+}
+.iconContainer {
+  padding: 20px 0 20px 160px;
+}
+}
+@media screen and (min-width: 560px) {
+  h1 {
+    padding: 100px 0 0 160px;
+    font-size: 3rem;
+  }
+  .soon {
+    padding-left: 110px;
+  }
+  .card {
+    width: 13%;
+    padding: 10px 0 10px 30px;
+    border-radius: 15px;
+  }
+  .flexContainer {
+    padding-left: 40px;
+  }
+  .timeFrameContainer {
+   padding-left: 10px;
+  }
+  .timeFrame {
+      padding: 10px 5px 0 90px;
+  }
+  .iconContainer {
+    padding: 20px 0 20px 250px;
+  }
+}
+@media screen and (min-width: 720px) {
+  h1 {
+    padding: 100px 0 0 200px;
+    font-size: 3rem;
+  }
+  .soon {
+    padding-left: 130px;
+  }
+  .card {
+    width: 13%;
+    padding: 10px 0 10px 30px;
+    border-radius: 15px;
+  }
+  .flexContainer {
+    padding-left: 70px;
+  }
+  .timeFrameContainer {
+   padding-left: 60px;
+  }
+  .timeFrame {
+      padding: 10px 5px 0 90px;
+  }
+  .iconContainer {
+    padding: 20px 0 20px 300px;
+  }
+}
+@media screen and (min-width: 790px) {
+  .soon {
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 900px) {
+  h1 {
+    padding: 100px 0 30px 230px;
+  }
+  .soon {
+    padding-left: 0;
+  }
+  .flexContainer {
+    padding-left: 150px;
+  }
+  .timeFrameContainer {
+   padding-left: 60px;
+  }
+  .timeFrame {
+      padding: 10px 5px 0 130px;
+  }
+  .iconContainer {
+    padding: 20px 0 20px 400px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    padding: 100px 0 30px 350px;
+  }
+  .soon {
+    padding-left: 0;
+  }
+  .flexContainer {
+    padding-left: 220px;
+  }
+  .timeFrameContainer {
+   padding-left: 170px;
+  }
+  .timeFrame {
+      padding: 10px 5px 0 130px;
+  }
+  .iconContainer {
+    padding: 20px 0 20px 570px;
+  }
+  .attribution {
+    padding-left: 100px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  h1 {
+    padding: 100px 0 30px 470px;
+  }
+  .soon {
+    padding-left: 0;
+  }
+  .flexContainer {
+    padding-left: 320px;
+  }
+  .timeFrameContainer {
+   padding-left: 240px;
+  }
+  .timeFrame {
+      padding: 10px 5px 0 170px;
+  }
+  .iconContainer {
+    padding: 20px 0 20px 700px;
+  }
+  .attribution {
+    padding-left: 100px;
+  }
+}
